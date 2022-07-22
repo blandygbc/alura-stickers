@@ -26,6 +26,6 @@ public class StickersGenerator {
         graphics.setColor(Color.YELLOW);
         graphics.drawString("TOPZERA", width * 29 / 100, height - 100);
 
-        ImageIO.write(newImg, "png", new File("assets/generated_stickers/" + nomeArquivo + ".png"));
+        ImageIO.write(newImg, "png", new File("src/main/java/resource/generated_stickers/" + nomeArquivo + ".png"));
     }
 }
